@@ -27,7 +27,7 @@ $(function() {
 
     var newBurger = {
       name: $("#burg").val().trim(),
-      devoured: $("[name=devour]:checked").val().trim()
+      devoured: "0"
     };
     console.log(newBurger);
 
